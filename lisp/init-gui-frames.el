@@ -29,7 +29,7 @@
           (underline-link-symbolic border)
           (string green-cooler)))
   :config
-  (load-theme 'modus-vivendi-tinted :no-confirm))
+  (load-theme 'modus-vivendi-tritanopia :no-confirm))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;
@@ -62,12 +62,18 @@
 ;; Custom font
 ;;
 ;; Main typeface
+<<<<<<< HEAD
 (set-face-attribute 'default nil :family "Font-100" :height 155)
+=======
+(set-face-attribute 'default nil :family "GussieMono Nerd Font" :height 160)
+>>>>>>> main
 
 ;; Font settings
 (set-fontset-font "fontset-default" 'unicode "SF Pro")
-(set-fontset-font "fontset-default" 'han "Noto Serif CJK SC")
+(set-fontset-font "fontset-default" 'han "Noto Sans CJK SC")
 
+
+;; Note this make all italic font style disabled
 (set-face-attribute 'italic nil :slant 'normal)
 
 ;; Add font ligatures support
